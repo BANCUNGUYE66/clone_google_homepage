@@ -1,20 +1,17 @@
-// src/components/Header.js
 import React from 'react';
 import './Header.css';
 
 function Header() {
   return (
-    <header className="header">
-      <div className="header__left">
-        <a href="#">About</a>
-        <a href="#">Store</a>
+    <div className="options">
+      <a href="#">Gmail</a>
+      <a href="#">Images</a>
+      <div className="options__icons">
+        <img src="https://img.icons8.com/material-rounded/24/ffffff/test-tube.png" alt="Lab Measurement Icon"/>
+        <img src="https://img.icons8.com/?size=48&id=PyTwzzQVz0MQ&format=png" alt="Menu Icon" className="menu-icon"/>
+        <img src="https://img.icons8.com/material-rounded/24/ffffff/user.png" alt="User Icon"/>
       </div>
-      <div className="header__right">
-        <a href="#">Gmail</a>
-        <a href="#">Images</a>
-        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo" />
-      </div>
-    </header>
+    </div>
   );
 }
 

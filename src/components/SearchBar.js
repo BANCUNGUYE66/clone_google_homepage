@@ -1,4 +1,3 @@
-// src/components/SearchBar.js
 import React, { useState } from 'react';
 import './SearchBar.css';
 
@@ -13,17 +12,24 @@ function SearchBar() {
   return (
     <div className="search">
       <img 
-        src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png" 
+        src="https://white.logodownload.org/wp-content/uploads/2020/11/google-white-logo.png" 
         alt="Google Logo"
         className="search__logo"
       />
       <form className="search__form" onSubmit={handleSearch}>
-        <input 
-          type="text" 
-          className="search__input" 
-          value={query} 
-          onChange={(e) => setQuery(e.target.value)}
-        />
+        <div className="search__input-container">
+          <img src="https://img.icons8.com/material-rounded/24/9aa0a6/search.png" alt="Search Icon" className="search__icon"/>
+          <input 
+            type="text" 
+            className="search__input" 
+            value={query} 
+            onChange={(e) => setQuery(e.target.value)}
+          />
+          <div className='search__icons'>
+            <img src="https://img.icons8.com/material-rounded/24/9aa0a6/microphone.png" alt="Microphone Icon" className="microphone__icon"/>
+            <img src="https://img.icons8.com/material-rounded/24/9aa0a6/camera.png" alt="Camera Icon" className="camera__icon"/>
+          </div>
+        </div>
         <div className="search__buttons">
           <button type="submit">Google Search</button>
           <button type="button">I'm Feeling Lucky</button>
