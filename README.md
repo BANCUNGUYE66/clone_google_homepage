@@ -68,16 +68,9 @@
 
 In order to run this project you need:
 - Node
-- ESlint set up
 
 
-<!--
-Example command:
 
-```sh
- gem install rails
-```
- -->
 
 ### Setup
 
