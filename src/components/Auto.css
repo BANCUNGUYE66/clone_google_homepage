@@ -1,0 +1,13 @@
+.auto {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: #202124;
+    color: #9aa0a6;
+  }
+  
+  .auto a {
+    color: #8ab4f8;
+    text-decoration: none;
+    margin-left: 5px;
+  }

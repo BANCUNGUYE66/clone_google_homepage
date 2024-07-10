@@ -7,3 +7,9 @@ body {
 .app {
   text-align: center;
 }
+
+@media (max-width: 768px) {
+  .app {
+    padding: 0 10px;
+  }
+}
