@@ -90,29 +90,7 @@ Install this project with:
   
   gh repo clone BANCUNGUYE66/clone_google_homepage
   cd clone_google_homepage
-  npm install -y
-```
-
-
-
-
-### Run tests
-
-To run tests, run the following command:
-
-
-
-```sh
-      npx stylelint "**/*.{css,scss}"
-
-```
-
-```sh
-      npx hint .
-```
-
-```sh
-    npx eslint .
+  npm install
 ```
 
 
