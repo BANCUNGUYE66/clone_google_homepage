@@ -1,17 +1,29 @@
-.header {
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
-    background-color: white;
+.options {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 10px 20px;
 }
 
-.header__left a,
-.header__right a {
-    margin: 0 15px;
-    color: #5f6368;
-    text-decoration: none;
+.options a {
+  margin: 0 15px;
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
 }
-.header__right img {
-    width: 20px;
-    height: 20px;
+
+.options__icons {
+  display: flex;
+  align-items: center;
+  gap: 27px;
+}
+
+.options__icons img {
+  cursor: pointer;
+}
+
+.menu-icon {
+  width: 24px;
+  height: 24px;
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(105%) contrast(103%);
 }
