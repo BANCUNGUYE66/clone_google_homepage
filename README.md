@@ -30,7 +30,6 @@
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
 
@@ -158,21 +157,6 @@ I would like to thank  Alight
 
 
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FAQ (optional) -->
-
-## ❓ FAQ (OPTIONAL) <a name="faq"></a>
-
-
-
-- **Did you intergrate linters to your project**
-
-  - Yes
-
-- **[Did you run all the tests**
-
-  - Yes
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
