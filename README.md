@@ -48,7 +48,7 @@
 
 ### Tech Stack <a name="tech-stack"></a>
 
-### HTML/CSS, javascript, Webpack <a name="tech-stack"></a>
+### HTML/CSS, javascript <a name="tech-stack"></a>
 
 
 
