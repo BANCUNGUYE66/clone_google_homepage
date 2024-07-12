@@ -18,7 +18,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "concurrently \"npm run start-client\" \"npm run start-server\"",
+    "start": "node api.js && concurrently \"npm run start-client\" \"npm run start-server\"",
     "start-client": "react-scripts start",
     "start-server": "node server.js"
   },
