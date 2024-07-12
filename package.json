@@ -18,9 +18,9 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "concurrently \"npm run start-client\" \"npm run start-server\"",
-    "start-client": "react-scripts start",
-    "start-server": "node server.js"
+    "start": "node init && concurrently \"npm run start-client\" \"npm run start-server\"",
+    "start-client": "node init && react-scripts start",
+    "start-server": "node init && node server.js"
   },
   "eslintConfig": {
     "extends": [
