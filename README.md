@@ -25,6 +25,7 @@
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
   - [Install](#install)
+  - [Usage](#usage)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -90,10 +91,35 @@ Install this project with:
   cd clone_google_homepage
   npm install
 ```
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+### Usage
 
+Running Frontend:
 
+```sh
+  
+ npm run start-client
+```
 
+Running Backend:
+
+```sh
+  
+npm run start-server
+
+```
+
+Frontend-Backend Interaction:
+
+```sh
+  
+User enters a search query in the frontend.
+Frontend sends a GET request to http://localhost:5000/search?q=<query>.
+Backend receives the request, fetches data from OpenLibrary API, and returns the results.
+Frontend displays the search results to the user.
+
+```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
